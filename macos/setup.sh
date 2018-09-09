@@ -18,9 +18,9 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name
-sudo scutil --set ComputerName rmbp
-sudo scutil --set LocalHostName rmbp
-sudo scutil --set HostName rmbp
+sudo scutil --set VooComp rmbp
+sudo scutil --set VooLocal rmbp
+sudo scutil --set VooHost rmbp
 
 ###############################################################################
 # General UI/UX                                                               #
